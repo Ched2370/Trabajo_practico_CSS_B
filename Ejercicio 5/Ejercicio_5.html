@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejecicio 5</title>
+    <style>
+        div{
+            border: 5px solid blue;
+            text-align: center;
+        }
+        .clase{
+            border: 10px double red;
+        }
+        #id{
+            border: 15px solid green;
+        }
+        span{
+            font-weight: bold;
+            font-size: 36px;
+        }
+        #uno{
+            color: green;
+        }
+        #dos{
+            color: red;
+        }
+        #tres{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        5.- Si un div es referenciado por 3 selectores: selector de elemento, clase e identificador,
+¿Cuál tiene prioridad? Verifique la respuesta realizando algún código de prueba.
+    -->
+    <div class="clase" id="id">
+        <p>Predomina el <span id="uno">ID</span>, luego la <span id="dos">CLASE</span> y por ultimo el <span id="tres">EL SELECTOR DE ELEMENTO</span> </p>
+    </div>
+</body>
+</html>

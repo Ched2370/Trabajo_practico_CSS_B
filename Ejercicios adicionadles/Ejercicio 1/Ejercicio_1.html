@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio adicional 1</title>
+</head>
+<style>
+    :root{
+        display: flex;
+        justify-content: center;
+    }
+   
+    ul {
+        background-color: blueviolet;
+       width: 200px;
+       height: 200px;
+       text-align: center;
+       list-style: none;
+    }
+    #primera::first-letter{
+        font-size: 36px;
+        color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #segunda::first-line{
+        font-size: 36px;
+        color: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #tercera:hover{
+        font-size: xx-large;
+        color: blueviolet;
+        background-color: beige;
+    }
+    #cuarta{
+        font-size: 36px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style: disc;
+    }
+    #quinta{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 8px;
+    }
+    #sexta{
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 20px;
+        font-size: 24px;
+    }
+
+</style>
+<body>
+    <!--
+        1.- Cree una lista HTML y asigne distintas propiedades a los atributos de su caja para
+resaltar cada uno de ellos.
+    -->
+    <ul>
+        <li id="primera">Item 1</li>
+        <li id="segunda">Item 2</li>
+        <li id="tercera">Item 3</li>
+        <li id="cuarta">Item 4</li>
+        <li id="quinta">Item 5</li>
+        <li id="sexta">Item 6</li>
+    </ul>
+</body>
+</html>

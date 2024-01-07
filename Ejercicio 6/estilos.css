@@ -1,0 +1,30 @@
+.contenedor {
+    background-color: #D3D4D3;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: auto;
+    
+}
+.encabezado {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #27B0DD;
+    border-bottom: 2px solid #27B0DD;
+    text-align: left;
+    padding-bottom: 10px;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+h2 img {
+    width: 40px;
+    height: 35px;
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+}

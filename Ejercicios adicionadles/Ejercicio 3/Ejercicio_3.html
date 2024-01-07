@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            display: flex;
+            justify-content: center;
+            background-color: grey;
+            height: 100vh;
+        }
+        #conteiner{
+            background-color: chartreuse;
+            width: 960px;
+            height: 800px;
+        }
+        .columna{
+            width: 320px;
+            height: 70%;
+            text-align: center;
+            float: left;  
+        }
+        #primera{
+            background-color: aqua;
+        }
+        #segunda{
+            background-color: burlywood;
+        }
+        #tercera{
+            background-color: cadetblue;
+        }
+        #pie_de_pagina{
+            background-color: aliceblue;
+            text-align: center;
+            float: left;
+            width: 100%;
+            height: 30%;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        3.- Desarrolle una página con un área container de 960 x 800, cuyo contenido sean 3
+columnas verticales de 320px y además contenga una sección “pie_de_pagina”. Utilice la
+propiedad float para la solución.
+    -->
+    <section id="conteiner">
+        <div class="columna" id="primera">columna 1</div>
+        <div class="columna" id="segunda">columna 2</div>
+        <div class="columna" id="tercera">colunba 3</div>
+        <div id="pie_de_pagina">pie de pagina</div>
+    </section>
+    
+</body>
+</html>

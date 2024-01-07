@@ -1,0 +1,55 @@
+.avatar {
+    position: relative;
+    left: 10px;
+    top: 70px;
+}
+.usuario {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 90px;
+}
+.tiempo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+}
+.contenido {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 90px;
+    top: 10px;
+}
+.respuestas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    color: #888888;
+    font-weight: bold;
+}
+.retraible {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+    left: 90px;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+.like {
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+#flecha {
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
