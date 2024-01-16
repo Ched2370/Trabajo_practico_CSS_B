@@ -4,6 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #192666;
     box-sizing: border-box;
+    list-style: none;
 }
 :root {
     background-color: #9CB6F7;
@@ -27,6 +28,7 @@ header {
 #conteiner {
     width: 770px;
     height: 300px;
+    background-color: #F7FBFF;
 }
 
 #titulo {
@@ -48,8 +50,8 @@ header {
     list-style: none;
     background-color: #182463;
     padding-top: 15px;
-
 }
+
 
 .lista {
     float: left;
@@ -58,25 +60,29 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     background-color: #203375;
-    padding: 10px 20px 5px 20px;
-    font-size: 13px;
+    padding: 5px 20px 5px 20px;
+    font-size: 12px;
     position: relative;
     left: 15px;
+    bottom: 5px;
 }
-#columna_principal {
+
+
+.columna_principal {
     width: 530px;
+    height: auto;
     float: left;
     background-color: #EFF3FF;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 20px;
     border: 5px solid #DEE7FF;
     border-radius: 15px 0px 0px 0px;
 }
 #columna_secundaria {
     width: 200px;
-    background-color: aqua;
+    background-color: #CEDBFF;
     float: right;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-right: 20px;
     border-radius: 0px 15px 0px 0px;
 }
@@ -85,11 +91,96 @@ header {
     color: #FF9000;
 }
 
-#imgCuadrado {
+#imgCuadro {
     float: left;
-    margin-left: 20px;
+    position: relative;
+    top: 30px;
+    width: 70px;
+    height: 60px;
 }
 
-#latera p {
-    font-size: 8%;
+#lateral li {
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    line-height: 20px;
+}
+
+#nombre {
+    font-weight: bold;
+}
+
+#perfil {
+    text-decoration: underline;
+}
+
+h2 {
+    background-color: #DEE7FF;
+    position: relative;
+    top: 15px;
+    padding: 5px;
+    text-decoration: underline;
+    clear: both;
+}
+
+h3 {
+    background-color: #A5BAF7;
+    position: relative;
+    top: 19px;
+    padding: 8px;
+    text-decoration: underline;
+    clear: both;
+}
+
+.texto {
+    font-size: 12px;
+    position: relative;
+    top: 25px;
+}
+
+#enlace1 {
+    position: relative;
+    top: 30px;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.template {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    margin: 0px;
+}
+
+.template p {
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.categoria li{
+    list-style: none;
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    position: relative;
+    padding: 5px;
+}
+
+.categoria li:hover {
+    background-color: #DEE7FF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.categoria {
+    margin-top: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+.clear {
+    clear: both;
 }
